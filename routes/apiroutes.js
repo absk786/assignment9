@@ -2,26 +2,32 @@
 // on the click of get started I want you to get this page and load all the existing data
 const app = require('express').Router()
 const db = require('../db/db.json')
+const fs = require('fs')
+const { v4: uuidv4 } = require('uuid');
 
 app.get('/api/notes', (req, res) => {
      res.json(db)
 });
 
 app.post('/api/notes', (req, res) => {
-    let newNote = "whatever user  as e new note"
-    console.log(newNote)
-    newNote.push(req.body)
-    res.json(newNote)
+   //this will add the id to the req.body
+    req.body.id = uuidv4()
+    console.log(req.body)
+    db.push(req.body)
+    fs.writeFileSync('./db/db.json',JSON.stringify(db,null, 2))
+    res.json(db)
 })
-// function addNotes () {
-//     // need to create a variable for the newNote that will be added
-//     // strigify the data so we can write to the jsonfile again
-//     let newData = JSON.stringify(newNote);
-//     // function to write to the file with the call back
-//     fs.writeFile('develop/db/db.json', newData, finished)
-//     function finished () {
-//         console.log('new note s been added to  file')
-//     }
-//  }
+
+app.delete('/api/notes/:id', (req, res) =>{
+ console.log(req.params.id)
+  for (let index = 0; index < db.length; index++) {
+        if (db[index].id === req.params.id) {
+            db.splice(index,1)
+        }
+    }
+    fs.writeFileSync('./db/db.json',JSON.stringify(db,null, 2))
+    res.json(db)    
+})
+
 
 module.exports = app;
