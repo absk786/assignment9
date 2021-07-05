@@ -2,9 +2,9 @@
 
 
 # Project Title: Note Taker
-![badmath](Screen Shot 2021-07-05 at 7.59.31 AM.png)
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 
-![](/Users/abdulrehmankhalil/projects/P1/asignments/assignment9/Screen Shot 2021-07-05 at 7.59.31 AM.png)
+![](Screen Shot 2021-07-05 at 7.59.31 AM.png)
 ## Name: Abdul
 
 ## [GitHub](https://github.com/absk786)
