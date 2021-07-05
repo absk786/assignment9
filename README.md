@@ -1,4 +1,55 @@
 # assignment9
+
+
+# Project Title: Note Taker
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
+![](/Users/abdulrehmankhalil/projects/P1/asignments/assignment9/Screen Shot 2021-07-05 at 7.59.31 AM.png)
+## Name: Abdul
+
+## [GitHub](https://github.com/absk786)
+
+## Table of Contents:
+* [Description](https://github.com/absk786/assignment7/blob/main/README.md#Description)
+* [Installation](https://github.com/absk786/assignment7/blob/main/README.md#Installation)
+* [Usage](https://github.com/absk786/assignment7/blob/main/README.md#Usage)
+* [Licences](https://github.com/absk786/assignment7/blob/main/README.md#License)
+* [Languages](https://github.com/absk786/assignment7/blob/main/README.md#Languages)
+* [Features](https://github.com/absk786/assignment7/blob/main/README.md#Features)
+* [Tests](https://github.com/absk786/assignment7/blob/main/README.md#Tests)
+* [Contributors](https://github.com/absk786/assignment7/blob/main/README.md#Contributors)
+
+-------------------------------------------------------------------------------------
+### Description: 
+* this is a project where we integrated a sever with the front end and the back end. It used html and api routes and CRUD methods to store data
+
+### Installation: 
+* nodemon, uuid
+ 
+### Usage: 
+* undefined
+
+### Languages: 
+* JavaScript,HTML,CSS,Node
+
+### License:
+* MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+### Features: 
+* n/a
+
+### Tests: 
+* there are no tests for this app yet
+
+### Contributors: 
+* others are welcome to contribute
+
+Questions
+* any questions email me at rehmank11@gmail.com
+
+
+
+------------------------
 # 11 Express.js: Note Taker
 
 ## Your Task
